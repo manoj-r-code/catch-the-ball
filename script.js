@@ -128,7 +128,7 @@ const restartBtn = document.getElementById("restart");
 
 let score = 0;
 let missed = 0;
-let maxMissed = 3; // Game over if missed 5 balls
+let maxMissed = 2; // Game over if missed 5 balls
 let gameOver = false;
 
 function createBall() {
